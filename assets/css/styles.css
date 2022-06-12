@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--primay-button-color: #F68436;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+ a {
+	text-decoration: none;
+	color: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: -apple-system , sans-serif;
+}
+
+
+.container-title {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: bold;
+		line-height: 1.5;
+		font-size: 28px;
+		text-align: center;
+		margin-bottom: 20px;
+}
+
+.wrapper {
+	padding: 12px 20px;
+}
+
+.header {
+	width: 100%;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #53BF9D;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.header-menu {
+	display: flex;
+}
+
+.header-menu-item:not(:last-child) {
+	margin-right: 12px;
+}
+
+.form-top-textfield {
+	margin-bottom: 12px;
+}
+
+.form-top-textfield input {
+	padding: 4px 8px;
+	width: 500px;
+}
+
+.form-top-textfield textarea {
+	padding: 4px 8px;
+		width: 500px;
+}
+
+.form-top-textfield h4 {
+ font-family: 'Quicksand', sans-serif;
+	margin-bottom: 4px;
+}
+
+.form-button {
+	background-color: var(--primay-button-color);
+	color: #fff;
+	padding: 4px 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	transition: all 0.2s ease-in-out;
+}
+
+.form-button:hover {
+	transform: translateY(-5px);
+}
+
+.form-button:active {
+	background-color: #3c3c3c;
+}
+
+

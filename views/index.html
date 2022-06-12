@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Note taking app with golang</title>
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+	<main class="container">
+		<header class="header">
+			<span class="header-logo">
+				<a href="/">
+					Logo
+				</a>
+			</span>
+			<div class="header-menu">
+				<div class="header-menu-item">
+					<a href="/my-notes">My notes</a>
+				</div>
+				<div class="header-menu-item">
+					<a href="/">Item</a>
+				</div>
+				<div class="header-menu-item">
+					<a href="/">Item</a>
+				</div>
+				<div class="header-menu-item">
+					<a href="/">Item</a>
+				</div>
+			</div>
+		</header>
+		<div class="wrapper">
+			<h2 class="container-title">Note taking app with Golang</h2>
+			<form action="/save_note" method="post" class="form">
+				<div class="form-top">
+					<div class="form-top-textfield">
+						<h4>Your title note</h4>
+						<input name="note-title" type="text" placeholder="Title">
+					</div>
+					<div class="form-top-textfield">
+						<h4>Your content note</h4>
+						<textarea name="note-content" rows="4" cols="50">
+						</textarea>
+					</div>
+				</div>
+				<button type="submit" class="form-button">Submit</button>
+			</form>
+		</div>
+	</main>
+</body>
+
+</html>
